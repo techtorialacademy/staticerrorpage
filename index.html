@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Error Page - Techtorial Academy Blog Project Failure</title>
+    <style>
+        /* General reset and styling */
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(45deg, #c2e9c6, #a4dcb2); /* Smooth green gradient background */
+            color: #2e665d;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* subtle shadow for depth */
+            padding: 20px;
+            border-radius: 8px;
+            background-color: rgba(255, 255, 255, 0.9); /* light background for content */
+        }
+
+        img {
+            width: 200px;
+            height: 200px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* shadow under the logo for emphasis */
+        }
+
+        h1 {
+            font-size: 32px;
+            margin-bottom: 15px;
+            letter-spacing: 1.5px; /* make it a little more airy and premium */
+            text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1); /* subtle text shadow for depth */
+        }
+
+        p {
+            font-size: 20px;
+            max-width: 500px;
+            text-align: center;
+            line-height: 1.5;
+            opacity: 0.9;
+        }
+
+        a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #148f77; /* Greenish link color */
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 4px;
+            padding: 10px 20px;
+            border: 2px solid #148f77;
+            transition: background-color 0.3s ease, color 0.3s ease;
+        }
+
+        a:hover {
+            background-color: #148f77;
+            color: #fff;
+        }
+
+        @media (max-width: 600px) {
+            /* Responsive design for smaller devices */
+            img {
+                width: 120px;
+                height: 120px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            p {
+                font-size: 18px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="Logo.png" alt="Techtorial Academy Logo">
+        <h1>Ooopsies! Something went wrong.</h1>
+        <p>Techtorial Academy DevOps team is working diligently to resolve the issue. Thank you for your patience.</p>
+        <a href="https://techtorialacademy.com">If you want to learn how to deploy pages, you can continue on here</a>
+    </div>
+</body>
+
+</html>
